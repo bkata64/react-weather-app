@@ -5,6 +5,7 @@ import Home from "./components/home/Home";
 import Weather from "./components/weather/Weather";
 import NotFound from "./components/notfound/NotFound";
 import Protected from "./components/protected/Protected";
+import Form from "./components/form/Form";
 
 function App() {
   const [logged] = useState(false); // Change to test protected route
@@ -23,6 +24,7 @@ function App() {
 						</Protected>
 					}
 				/>
+        <Route path="/form" element={<Form />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

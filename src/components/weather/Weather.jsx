@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SearchBar from "../globals/SearchBar";
 
 const Weather = () => {
   return (
-    <div>Weather</div>
-  )
-}
+    <div className={"flex flex-col container mx-auto"}>
+      <SearchBar />
+    </div>
+  );
+};
 
-export default Weather
+export default Weather;
