@@ -7,7 +7,7 @@ const Navbar = () => {
     <nav>
         <div className={`container flex mx-auto p-5 justify-between align-middle`}>
           <Link to={'/'}>
-            <div className={`text-3xl font-bold ${style.text__color} my-auto`}>Weather Project  -  Vercel Update</div>
+            <div className={`text-3xl font-bold ${style.text__color} my-auto`}>Weather Project  -  Vercel 2nd update</div>
           </Link>
             <div className={`flex`}>
                 <Link to={'/weather'} className={`${style.button__weather} py-2 px-9 mr-10`}>Weather</Link>
